@@ -24,7 +24,6 @@ jobs:
         uses: apache/skywalking-eyes@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GOPROXY: https://proxy.golang.org,direct
 
       - name: Lint
         run: |

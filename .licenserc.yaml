@@ -9,5 +9,7 @@ header:
 
   paths-ignore:
     - "parser/function.peg.go"
+    - "example/**"
+    - "parser/api.pb.go"
 
   comment: on-failure
